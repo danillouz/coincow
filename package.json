@@ -1,6 +1,6 @@
 {
   "name": "coincow",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A magical cow that tells you the current LTC, ETH or BTC price, in EUR or USD, right from your terminal.",
   "bin": {
     "coin": "cli.js"
