@@ -1,0 +1,42 @@
+{
+  "name": "coincow",
+  "version": "1.0.0",
+  "description": "A magical cow that tells you the current LTC, ETH or BTC price, in EUR or USD, right from your terminal.",
+  "bin": {
+    "coin": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danillouz/coincow.git"
+  },
+  "keywords": [
+    "cli",
+    "litecoin",
+    "ethereum",
+    "bitcoin",
+    "coinbase-api",
+    "price-tracker"
+  ],
+  "author": "Daniël Illouz <daniel.illouz@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danillouz/coincow/issues"
+  },
+  "homepage": "https://github.com/danillouz/coincow#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cowsay": "^1.2.1",
+    "lolcatjs": "^2.3.0",
+    "node-fetch": "^1.7.3",
+    "ora": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=9"
+  }
+}
