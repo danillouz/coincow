@@ -28,8 +28,8 @@ npm i -g coincow
     > coin eth usd
 ```
 
-Alternatively you can use `npx`, for example:
+Alternatively, you can use `npx` if you don't want to install globally, for example:
 
 ```
-npx coincow coin ltc eur
+npx coincow ltc eur
 ```
